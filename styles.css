@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+nav{
+	width:100vw;
+	background-color:aqua;
+	padding:20px;
+	border-radius:10px;
+}
+ul{
+	list-style-type:none;
+}
+li>a{
+	text-decoration:none;
+}
+li{
+	display:inline-block;
+	margin-inline: 70px;
+}
